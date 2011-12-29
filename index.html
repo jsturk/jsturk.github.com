@@ -1,0 +1,13 @@
+---
+title: home
+layout: master
+slug: home
+---
+
+<div class="row">
+{% for category in site.categories %}
+	<div class="span4">
+		<h2>{{ category }}</h2>
+	</div>
+{% endfor %}
+</div>
